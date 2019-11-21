@@ -10,12 +10,12 @@ import org.tnw.server.entity.thrift.server.ThriftServer;
  * SpringBoot应用启动类
  */
 @SpringBootApplication
-public class SpringBootTnwServerApplication {
+public class SpringBootThriftDemoApplication {
   private static ThriftServer thriftServer;
 
   public static void main(String[] args) {
 
-    ApplicationContext context = SpringApplication.run(SpringBootTnwServerApplication.class, args);
+    ApplicationContext context = SpringApplication.run(SpringBootThriftDemoApplication.class, args);
 
     try {
       thriftServer = context.getBean(ThriftServer.class);

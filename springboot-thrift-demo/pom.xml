@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.tnw.server</groupId>
-    <artifactId>tnw-server-web</artifactId>
+    <groupId>com.lannister</groupId>
+    <artifactId>springboot-thrift-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <!-- spring-boot-starter-parent的父项目spring-boot-dependencies是spring boot的版本仲裁中心 -->
